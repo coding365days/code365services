@@ -30,6 +30,11 @@ public class CustomerController {
 	public String get() {
 		return "testing";
 	}
+	
+	@GetMapping(value = "/test1")
+	public String get1() {
+		return "testing1";
+	}
 }
 
 //@Slf4j
