@@ -10,14 +10,15 @@ import com.code365.customer.repository.CustomerRepository;
 @Service
 public class CustomerService {
 	
-//	@Autowired
-//	private CustomerRepository customerRepository;
+	@Autowired
+	private CustomerRepository customerRepository;
 	
 	public void registerCustomer(CustomerRegistrationRequest customerRegistrationRequest) {
-		Customer customer = Customer.builder()
-				.firstName(customerRegistrationRequest.getFirstName())
-				.lastName(customerRegistrationRequest.getLastName())
-				.email(customerRegistrationRequest.getEmail()).build();
+//		Customer customer = Customer.builder()
+//				.id(System.currentTimeMillis())
+//				.firstName(customerRegistrationRequest.getFirstName())
+//				.lastName(customerRegistrationRequest.getLastName())
+//				.email(customerRegistrationRequest.getEmail()).build();
 //		customerRepository.save(customer);
 	}
 }

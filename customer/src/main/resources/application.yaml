@@ -4,4 +4,17 @@ server:
 spring:
   application:
     name: customer
-    
+  #datasource:
+    #username: root
+    #password: root
+    #url: jdbc:mysql://3.131.65.108:3306/customerdb
+    #url: jdbc:mysql://localhost:3306/customerdb
+  #jpa:
+    #properties:
+      #hibernate:
+        #dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    #hibernate:
+      #ddl-auto: update
+      #naming-strategy: org.hibernate.cfg.DefaultComponentSafeNamingStrategy
+    #show-sql: true
+      
