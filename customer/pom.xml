@@ -64,7 +64,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>code365services/customer-api-image</repository>
+					<repository>customer-api-image</repository>
 					<tag>0.0.1</tag>
 					<!--<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
