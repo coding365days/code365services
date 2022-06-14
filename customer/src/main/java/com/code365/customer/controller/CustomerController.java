@@ -17,8 +17,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/api/v1/customer")
 public class CustomerController {
 	
-	@Autowired
-	private CustomerService customerService;
+//	@Autowired
+//	private CustomerService customerService;
 	
 //	@PostMapping(value = "/register")
 //	public void registerCustomer(@RequestBody CustomerRegistrationRequest customerRegistrationRequest) {

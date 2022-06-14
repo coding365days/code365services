@@ -7,11 +7,11 @@ import com.code365.customer.model.Customer;
 //import com.code365.customer.model.CustomerRegistrationRequest;
 import com.code365.customer.repository.CustomerRepository;
 
-@Service
+//@Service
 public class CustomerService {
 	
-	@Autowired
-	private CustomerRepository customerRepository;
+//	@Autowired
+//	private CustomerRepository customerRepository;
 	
 //	public void registerCustomer(CustomerRegistrationRequest customerRegistrationRequest) {
 //		Customer customer = Customer.builder()
