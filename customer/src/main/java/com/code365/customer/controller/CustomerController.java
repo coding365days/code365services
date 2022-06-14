@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.code365.customer.model.CustomerRegistrationRequest;
+//import com.code365.customer.model.CustomerRegistrationRequest;
 import com.code365.customer.service.CustomerService;
 
 import lombok.extern.slf4j.Slf4j;
@@ -20,11 +20,11 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
-	@PostMapping(value = "/register")
-	public void registerCustomer(@RequestBody CustomerRegistrationRequest customerRegistrationRequest) {
-		log.info("new customer registration {}", customerRegistrationRequest);
-		customerService.registerCustomer(customerRegistrationRequest);
-	}
+//	@PostMapping(value = "/register")
+//	public void registerCustomer(@RequestBody CustomerRegistrationRequest customerRegistrationRequest) {
+//		log.info("new customer registration {}", customerRegistrationRequest);
+//		customerService.registerCustomer(customerRegistrationRequest);
+//	}
 	
 	@GetMapping(value = "/test")
 	public String get() {

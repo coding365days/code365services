@@ -1,7 +1,7 @@
 package com.code365.customer.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
