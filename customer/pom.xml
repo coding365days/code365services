@@ -64,7 +64,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>coding365days/customer-docker-repo</repository>
+					<repository>code365services/customer-api-docker-image</repository>
 					<tag>0.0.1</tag>
 					<!--<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
